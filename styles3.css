@@ -1,0 +1,39 @@
+body {
+    background-color: #e3e5ed;
+}
+
+#signup-form {
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;
+    width: 400px;
+    height: 470px;
+    box-shadow: 0px 0px 10px #eae5e5;
+    text-align: center;
+    color: black;
+    background-color: #fc7c97;
+}
+
+#signup-form label, input {
+    text-align: left;
+    margin-left: 76px;
+    margin-top: -2px;
+}
+
+#signup-form button {
+    margin-left: 76px;
+    width: 248px;
+    height: 28px;
+}
+
+#signup-form input {
+    height: 30px;
+    width: 240px;
+}
+
+#signup-div {
+    margin-left: 36.5%;
+    margin-top: 6.5%;
+}
+
+#signup

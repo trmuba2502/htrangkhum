@@ -1,0 +1,71 @@
+body {
+    background-color: #F8F9FD;
+}
+
+/* ----------------------- SIGN IN ------------------- */
+#signin{
+    margin-top: 0px;
+    margin-left: 370px;
+    width: 400px;
+    height: 300px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px #eae5e5;
+    float: left;
+}
+
+#signin form{
+    padding: 28px 40px;
+}
+
+#signin h2{
+    margin-top: -6px;
+}
+
+#signin input {
+    height: 30px;
+}
+
+::placeholder{
+    padding: 0px 10px;
+}
+
+[name="username"], [name="password"]{
+    border-radius: 12px;
+    background-color: #F2F2F2;
+}
+
+button {
+    border-radius: 12px;
+}
+
+#signin label {
+    font-size: 13px;
+}
+
+/* --------------------------------- SIGN OUT ------------------------------ */
+#signup{
+    margin-top: 180px;
+    margin-left: 771.5px;
+    background-color: #fc7c97;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0px 0px 10px #eae5e5;
+    text-align: center;
+    color:white;
+}
+
+#signup h1{
+    font-size: 25px;
+    /* margin-top: 60px; */
+    padding: 110px 10px;
+}
+
+#signup h2{
+    font-size: 22px;
+    margin-top: -120px;
+}
+
+#signup form a{
+    color: white;
+    font-size: 19px;
+}
